@@ -1,0 +1,211 @@
+html {
+	color: white;
+}
+.grid-boxx{
+	display: grid;
+	margin: 1.5%;
+	width: 92%;
+	height: 7%;
+	grid-template-columns: 86% 7% 7%;
+}
+.grid-boxxx , .grid-boxxxx img {
+	margin: 13px;
+	}
+.grid-boxx h1{
+	color: #303030;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 100px;
+	font-family: verdana;
+	font-weight: 500;
+}
+
+/*.href {
+	margin-left: 25px ;
+	width: 92%;
+	height: 50px;
+	border: solid #F0F0F0;
+	background-color: #F0F0F0;
+}*/
+.fre{
+	background-image: url("photo_2018-07-26_03-58-55.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+	background-repeat: no-repeat;
+}
+.fre img {
+
+}
+.fre  h1 {
+	text-align: center;
+	padding-top: 60px;
+	font-family: verdana;
+}
+.fre button {
+	margin-left: 600px;
+	margin-top: 100px; 
+	padding: 10px 5px;
+	color: #000;
+	font-weight: 600;
+	border: none;
+}
+.href h1{
+	color: #787878;
+	text-align: center;
+	padding: 1px 1px;
+	margin: 4px 12px;
+}
+ /*	{background-image: url("messenger-user-avatar.png");
+	width: 10px;
+	height:10px;
+	background-repeat: no-repeat;
+}
+{
+	background-image: url("online-shopping-cart.png");
+	width: 100%;
+	height:100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-left: 90%;
+}
+*/
+.gre h3{
+	text-align: center;
+	padding-top: 80px;
+	font-family: verdana;
+	color: #000;
+}
+/*.mone {
+	margin-top: -145px;
+	margin-left: 20px;
+	width: 94%;
+	height: 50px;
+	border: solid #000;
+	background-color: #000;
+}
+*/
+.grid-box{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+.grid-box > div{
+	color: black;
+}
+.grid-box h1{
+	padding: 0px;
+	text-align: left;
+}
+.idd{
+	width: 50px;
+	height: 2px; 
+	text-align: center; 
+	color: black;
+}
+
+/*.fre .thn {
+	color: #000;
+	padding: 20%; 
+}*/
+.qwr {
+	text-align: center;
+	font-weight: bold;
+	color:black;
+	padding-top:80px;
+	font-family: verdana;
+}
+.error{
+	margin-left: 250px;
+}
+.error div{
+	display: inline-block;
+	color: #000;
+	margin-left: 40px;
+}
+.qaz {
+	display: block; 
+}
+.qaz img{
+	width: 200px;
+	text-align: center;
+}
+.nre {
+	background-image: url("20190403_151648.jpg");
+	width: 100%;
+	height: 450px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	background-size: cover;
+}
+.nre  h1 {
+	text-align: left;
+	padding-top: 20px;
+	font-family: verdana;
+}
+.nre button {
+	margin-left: 600px;
+	margin-top: 300px; 
+	padding: 10px 5px;
+	color: #000;
+	font-weight: 600;
+	border: none;
+}
+.tre {
+	background-image: url(image_2018-07-26_17-46-57.png);
+	width: calc(100% - 80px);
+	height: 60px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.grid-bo{
+	display: grid;
+	grid-template-columns: 30% 20% 20% 30%;
+	height: 85%;
+}
+.grid-bo > div{
+	color: #525252;
+}
+.grid-bo h1{
+	padding: 65px;
+	padding-left: 110px;
+	text-align: center;
+	font-family: verdana;  
+	font-weight: 500;
+	font-size: 300%;
+}
+.grid-bo .hmn{
+	padding: 35px;
+	margin: 50px;
+	padding-left: 30px;
+	font-family: verdana;
+	font-weight: 500;
+	font-size: 100%;
+}
+.grid-bo .any{
+	padding: 35px;
+	margin: 50px;
+	padding-left: 30px;
+	font-family: verdana;
+	font-weight: 500;
+	font-size: 100%;
+}
+.grid-bo .org{
+	padding: 15px;
+	margin: 20px;
+	padding-left: 30px;
+	font-family: verdana;
+	font-weight: 500;
+	font-size: 100%;
+}
+.grid-bo .idn{
+	margin: 13%;
+}
+.grid-bo .but{
+	text-align: center;
+	margin: 10%;	
+	color: #000;
+	font-weight: 600;
+	border: none;
+	border-radius: 5px;
+}

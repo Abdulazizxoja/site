@@ -1,0 +1,118 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<title>KIRPICH 5</title>
+    <style>
+    	table, th, td {
+    	border: 3px solid black;	
+    }
+      #non{
+      	display: none;
+      }
+      .click:hover #non{
+      	display: block;
+      }
+      .row{
+      	margin: 0 auto;
+      }
+    </style>
+</head>
+<body>
+	<table class="table  table-hover table-bordered">
+	    <colgroup>
+	    	<col span="1" style="background-color:green">
+	    	<col span="1" style="background-color:yellow">
+	    	<col span="1" style="background-color:red">
+	    	<col span="1" style="background-color:blue">
+	    	<col span="1" style="background-color:#FF6A6A">
+	    	<col span="1" style="background-color:orange">
+	    	<col span="1" style="background-color:gray">
+	    	<col span="1" style="background-color:#71C671">
+	    </colgroup>
+
+		<thead>			
+			<tr>
+				<th> Имя </th>
+				<th> Описание Фото </th>
+				<th> Название Файла </th>
+				<th> Категория </th>
+				<th> Автор </th>
+				<th> Время Добавления </th>
+				<th> Количество Лайков </th>
+				<th> Изменить или Удалить Твой Фото</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr class="click
+			">
+				<td> Priroda </td>
+				<td> Priroda sveti </td>
+				<td > priroda.jpg </td>
+				<td> Sveti i volshebnik </td>
+				<td> Nikulin </td>
+				<td > 22.09.2011 </td>
+				<td> 811 лайков </td>
+		   		 <td>
+		   		 	<div class="row">
+		   		 		<div class="col-5">
+		   		 			<button id="non" class="btn btn-primary">ИЗМЕНИТЬ</button></div>
+		   		 		<div class="col-5">
+		   		 			<button id="non" class="btn btn-danger">УДАЛИТЬ</button>
+		   		 		</div>
+		   		 	</div>					
+				</td>
+			</tr>
+				
+			<tr class="click
+			">
+				<td> Mashina </td>
+				<td> Avtomobili </td>
+				<td> car.jpg </td>
+				<td> Mashina  </td>
+				<td> Pushkin  </td>
+				<td > 19.03.2014 </td>
+				<td> 1023 лайков </td>
+				<td>
+					<div class="row">
+					<div class="col-5"><button id="non" class="btn btn-primary">ИЗМЕНИТЬ</button></div>
+					<div class="col-5"><button id="non" class="btn btn-danger">УДАЛИТЬ</button></div>
+				</td>
+			</tr>
+			<tr class="click
+			">
+				<td> Gul </td>
+				<td> Tuvak </td>
+				<td> gul.png </td>
+				<td> Gullar </td>
+				<td> Navoiy </td>
+				<td> 12.12.2011 </td>
+				<td> 233 лайков </td>
+				<td>
+					<div class="row">
+					<div class="col-5"><button id="non" class="btn btn-primary">ИЗМЕНИТЬ</button></div>
+					<div class="col-5"><button id="non" class="btn btn-danger">УДАЛИТЬ</button></div>
+				</td>
+			</tr>
+			<tr class="click
+			">
+				<td> Uylar </td>
+				<td> Dom </td>
+				<td> Uy.png </td>
+				<td> Bino </td>
+				<td> Farg`oniy </td>
+				<td> 11.11.2000 </td>
+				<td> 173 лайков </td>
+				<td>
+					<div class="row">
+					<div class="col-5"><button id="non" class="btn btn-primary">ИЗМЕНИТЬ</button></div>
+					<div class="col-5"><button id="non" class="btn btn-danger">УДАЛИТЬ</button></div>
+					</td>
+			</tr>
+		</tbody>
+				
+	</table>
+	<center><input type="button" class="btn btn-success" value="ДОБАВИТЬ ФОТО"></center>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>

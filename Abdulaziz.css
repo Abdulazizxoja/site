@@ -1,0 +1,308 @@
+.force{
+	margin-top: 10px;
+	color: #00C78C;
+	font-weight: 800;
+	font-size: 25px;
+	font-family: verdana;
+	padding-top: 5px;
+	padding-left: 15px;
+}
+ #lll{
+	color: #000;
+	background-color: #fff;
+	border-radius: 20px;
+	font-weight: 600;
+	font-size: 15px;
+	color: #787878;
+border-right-width: 10px;
+border-left-width: 10px;
+
+}
+ #lll:hover{
+	color: #525252;
+	background-color: #00C78C;
+	border-radius: 20px;
+}
+.hover:visited .dropdown{
+	display: inline-block;
+}
+#llj{
+	width: 100%;
+	color: #000;
+	background-color: #fff;
+	border-radius: 20px;
+	font-weight: 600;
+	font-size: 15px;
+	color: #787878;
+border-right-width: 10px;
+border-left-width: 10px;
+padding-right: 100px;
+}
+ #llj:hover{
+	color: #525252;
+	background-color: #00C78C;
+	border-radius: 20px;
+}
+.menu{
+	margin-top: 10px;
+}
+ #mmm{
+	background-color: #00C78C;
+	border-radius: 23px;
+	font-weight: 600;
+	font-size: 25px;
+	color: #787878;
+	border-right-width: 18px;
+	border-left-width: 18px;
+	margin-top: 14px;
+	margin-left: 95px;
+
+}
+ #mmm:hover{
+	color: #fff;
+	background-color: #424242;
+}
+#mmm span {
+	color: #191970;
+}
+#mmm:hover span{
+	color:#fff;
+}
+.grid{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 31% 31% 31%;
+	grid-gap: 2em;
+	padding: 2%;
+}
+.grid  {
+	text-align: center;
+}
+.brand{
+	display: grid;
+	grid-template-columns: 75% 25%;
+}
+.grid2 {
+	display: grid;
+	grid-template-columns: 48% 52%
+}
+.grid3{
+	display: grid;
+	grid-template-columns: 16% 16% 16% 16% 16% 16%;
+	grid-gap: 1em;
+	padding: 2%;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #00C78C; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius:2px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #191970; /* Add a dark-grey background on hover */
+}
+
+.gridd{
+	display: grid;
+	grid-template-columns: 67% 33%
+}
+
+
+ #mma{
+	background-color: #C1FFC1;
+	border-color: #00C78C;
+	border-radius: 2px;
+	border-width: 3px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #00C78C;
+	margin-top: 21%;
+	margin-left: 37%;
+
+}
+ #mma:hover{
+	background-color: #00C78C;
+}
+#mma span {
+	color: #00C78C;
+}
+#mma:hover span{
+	color:#2E2E2E;
+}
+
+/*
+media bowlandi*/
+/*heder blue*/
+@media(max-width: 520px){
+	.gride{
+		display: none;
+	}
+}
+
+/*tools and marketing*/
+
+
+
+@media(max-width: 999px){
+	.grid{
+		grid-template-columns: 90%
+	}
+}
+
+
+
+/*clients*/
+
+@media(max-width: 1000px){
+	.grid3{
+		grid-template-columns: 31% 31% 31%
+	}
+}
+@media(max-width: 640px){
+	.grid3{
+		grid-template-columns: 44% 44%
+	}
+}
+@media(max-width: 420px){
+	.grid3{
+		grid-template-columns: 90%
+	}
+}
+
+
+/*qizaloq*/
+@media(max-width: 990px){
+	.grid2{
+		grid-template-columns: 90%
+	}
+}
+/*contact us*/
+
+@media(max-width: 790px){
+	.gridd{
+		grid-template-columns: 90%
+	}
+}
+/*
+aboutdigi team*/
+.grayd{
+	display: grid;
+	grid-template-columns: 24% 24% 24% 24%;
+	padding: 20px 0px 0px 30px;
+}
+
+@media(max-width: 980px){
+	.grayd{
+		grid-template-columns: 45% 45%
+	}
+}
+@media(max-width: 790px){
+	.grayd{
+		grid-template-columns: 90%
+	}
+}
+
+
+.grid5{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	padding: 1px 20px 0px 45px;
+}
+
+
+
+.postt {
+  transition: box-shadow .3s;
+ 
+  
+}
+.postt:hover {
+  box-shadow: 0 0 11px rgba(25,25,25,25); 
+}
+
+.griid{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%
+}
+.png:hover{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition: filter 0.5s ease-in-out;
+}
+
+
+
+.grid6{
+	display: grid;
+	grid-template-columns: 45% 55%
+}
+
+@media(max-width: 800px){
+	.grid6{
+		grid-template-columns: 90%
+	}
+}
+
+ #mam{
+	background-color: #00C78C;
+	border-radius: 23px;
+	font-weight: 500;
+	font-size: 14px;
+	color: #000;
+	border-right-width: 5px;
+	border-left-width: 5px;
+}
+ #mam:hover{
+	color: #000;
+	background-color: blue;
+}
+#mam span {
+	color: #000;
+}
+#mam:hover span{
+	color:#000;
+}
+
+
+
+.png:hover{
+	transform: scale(1.2);
+}
+/*.png{
+	background-size: cover;
+	background-position: center;
+}
+
+.two .ktn{
+	position: relative;
+	margin-left: 12%;
+	margin-top: -8%;
+	transform: translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	background-color: black;
+	color: yellow;
+	font-weight: 900;
+	font-size: 16px;
+	padding: 12px 24px;
+	border:none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.ktn{
+	display: none;
+}
+.two:hover .ktn{
+	display: block;
+}
+*/
+

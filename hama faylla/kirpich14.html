@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kirpich 14</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <style>
+.form-control{
+  width: 50%;
+}
+
+#ffd{
+  background-color: #7A67EE;
+   width: 100%;
+  height: 105%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: cover;
+}
+#llk{
+  background-color: #00EE76;
+  width: 100%;
+  height: 370px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: cover;
+}
+#add{
+  background-color: #EEDC82;
+  width: 100%;
+  height: 725px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: cover;
+}
+#sas{
+  background-color: #cccccc;
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: cover;
+}
+</style>
+<body>
+  <div>
+  <div class="panel-group" id="collapse-group">
+      <div class="panel">
+      <div class="panel-heading">
+              <center>
+                  <button id="none" type="button" class="btn btn-primary" data-toggle="collapse" data-parent="#collapse-group" href="#el">
+              <span>REGISTRATION</span>
+            </button>
+
+              <button id="none" type="button"  class="btn btn-danger" data-toggle="collapse" data-parent="#collapse-group" href="#e2">
+              <span>LOGIN</span>
+            </button>
+            <button id="none" type="button"  class="btn btn-success" data-toggle="collapse" data-parent="#collapse-group" href="#e3">
+              <span>ADD PHOTO</span>
+            </button>
+
+             <button id="none" type="button"  class="btn btn-warning" data-toggle="collapse" data-parent="#collapse-group" href="#e4">
+              <span>TABLE OF PHOTOS</span>
+            </button>
+          </center>
+          </div>
+
+    <div id="el" class="collapse">
+        <div class="panel-body">
+	<!-- Форма Регистрации -->
+  <header id="ffd">
+  <br>
+  <center>
+    <h1>Form Registration</h1>
+    <form  role="form">
+  <div class="form-group">
+    <label for="name"><h4>Your Name:</h4></label>
+      <input type="name"  data-toggle="tooltip" title="input your name" class="form-control" id="name" placeholder="Your Name"></input>
+  </div>
+  
+  <div class="form-group">
+    <label for="email"><h4>Your E-mail:</h4></label>
+      <input type="email"  data-toggle="tooltip" title="input your email" data-placement="left" class="form-control" id="email" placeholder="Your e-mail"></input>
+  </div>
+  
+  <div class="form-group">
+    <label for="password"><h4>Your Password:</h4></label>
+      <input type="password"  data-toggle="tooltip" title="input your password" data-placement="right" class="form-control" id="password" placeholder="Your password"></input>
+  </div>
+
+  <div class="form-group">
+    <label for="password"><h4>Reply your Password:</h4></label>
+      <input type="password" data-toggle="tooltip" title="reply your password" data-placement="bottom" class="form-control" id="password" placeholder="Reply password"></input>
+  </div>  
+  
+</form>
+<a><button id="non" class="btn btn-success" data-toggle="tooltip" title="button of registration" data-placement="left">РЕГИСТРАЦИЯ</button></a><br><br>
+</header></div></div>
+
+
+
+<!-- form login -->
+ <div id="e2" class="collapse">
+        <div class="panel-body">
+<header id="llk"><center><br>
+<h2>LOGIN INTO SITE</h2><br><br>
+  <form  role="form">
+  <div class="form-group">
+    <label for="email" ><h4>Your E-mail:</h4></label>
+      <input type="email" class="form-control" id="email" placeholder="Your e-mail"data-toggle="tooltip" title="input your email" data-placement="left"></input>
+  </div>
+  
+  <div class="form-group">
+    <label for="password" ><h4>Your Password:</h4></label>
+      <input type="password" class="form-control" id="password" placeholder="Your password"data-toggle="tooltip" title="input your password" data-placement="right"></input>
+  </div>
+</form>
+  <a><button id="non" class="btn btn-success"  data-toggle="tooltip" title="login into site" data-placement="bottom">LOGIN</button></a><br><br><br></center></header></div></div></div>
+
+<!--   form adding photo -->
+<div id="e3" class="collapse">
+        <div class="panel-body">
+<header id="add"><center><br><br>
+<h2>NEW PHOTO</h2><br><br>
+  <form  role="form">
+  <div class="form-group">
+    <label for="name"><h4>Name of Photo:</h4></label>
+      <input type="name" class="form-control" id="name" placeholder="Name of photo" data-toggle="tooltip" title="name of photo" data-placement="left"></input>
+  </div>
+  
+  <div class="form-group">
+    <label for="name"><h4>Description of Photo:</h4></label>
+      <input type="name" class="form-control" id="name" placeholder="Description of Photo" data-toggle="tooltip" title="Description of Photo" data-placement="bottom"></input>
+  </div>
+
+  <label for="name"><h4>AUTHOR:</h4></label>
+  <select class="form-control" data-toggle="tooltip" title="Author of Photo" data-placement="right">
+    <option disabled="disabled" selected="selected" value="Author">Choose Author Of Your Photo</option>
+    <option>Alisher Navoiy</option>
+    <option>Zahiriddin Muhammad Bobur</option>
+    <option>G`ofur G`ulom</option>
+    <option>Aleksandr Sergeevich Pushkin</option>
+  </select><br />
+
+  <label for="category"><h4>Choose category of your photo:</h4><br />
+    <h5>Cars   <input type="checkbox" data-toggle="tooltip" title="Description of Photo" data-placement="left"></h5>
+    <h5>Flowers   <input type="checkbox" data-toggle="tooltip" title="Description of Photo" data-placement="right"></h5>
+    <h5>Homes   <input type="checkbox" data-toggle="tooltip" title="Description of Photo" data-placement="bottom"></h5>
+    <h5>Watches   <input type="checkbox"data-toggle="tooltip" title="Description of Photo" data-placement="left"></h5>
+    <h5>Tables   <input type="checkbox"data-toggle="tooltip" title="Description of Photo" data-placement="right"></h5>
+    <h5>Books   <input type="checkbox"data-toggle="tooltip" title="Description of Photo" data-placement="left"></h5>
+  </label>
+</form>
+  <a href="sendmail.com"><button id="non" class="btn btn-success" data-toggle="tooltip" title="send Photo" data-placement="right">SEND</button></a>
+</center></header></div></div></div>
+
+
+
+ <div id="e4" class="collapse">
+        <div class="panel-footer">
+        <!--   form teble of photos -->
+    <table class="table table-bordered" >
+      <colgroup>
+          <col span="1" style="background-color:green" >
+          <col span="1" style="background-color:yellow">
+      </colgroup>
+
+    <thead>     
+      <tr>
+        <th style="width: 50%;" title=" Table of photos " > Table of photos </th>
+        <th style="width: 50%;" data-toggle="tooltip" title="Table of users" data-placement="bottom"> Table of users</th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <th><center><img src="IMG_20170825_154406.jpg" style="width: 30%; height: 25%;"data-toggle="tooltip" title="IMG_20170825_154406.jpg" data-placement="left"></center></th>
+        <th><h3>Alex Gibrin</h3> </th>
+      </tr>
+      <tr>
+        <th><center><img src="IMG_20170902_135124.jpg" style="width: 30%; height: 25%;"data-toggle="tooltip" title="IMG_20170902_135124.jpg" data-placement="left"></center></th>
+        <th> <h3>John Say</h3></th>
+      </tr>
+      <tr>
+        <th><center><img src="IMG_20171011_182132.jpg" style="width: 30%; height: 25%;"data-toggle="tooltip" title="IMG_20171011_182132.jpg" data-placement="left"></center></th>
+        <th> <h3>Ovah Alex</h3></th>
+      </tr>
+    </tbody>
+
+
+        </table></div>
+  </div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready (function (){
+    $('[data-toggle="tooltip"]').tooltip ();
+  });
+</script>
+</body>
+</html>

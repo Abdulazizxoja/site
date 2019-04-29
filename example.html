@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example</title>
+	<style>
+	button:active{
+    background:olive;
+	}
+
+	button:focus{
+    background:olive;
+	}
+
+
+
+	.btm{
+    background: #ccc;
+} .btm:focus{
+    background: red;
+}
+
+
+.active{
+         background:red;
+    }
+ button.btn:active{
+     background:red;
+ }
+	</style>
+</head>
+<body>
+	<!-- pervoe -->
+	<div class="col-sm-12" id="">
+    <button type="submit" class="btn btn-warning" id="1">Button1</button>
+    <button type="submit" class="btn btn-warning" id="2">Button2</button>
+    <br><br></div>
+
+    <div class="col-sm-12" id="my_styles">
+     <button type="submit" class="btm btn-warning" id="1">Button1</button>
+     <button type="submit" class="btm btn-warning" id="2">Button2</button>
+</div>
+
+<div class="col-sm-12" id="my_styles">
+   <button type="submit" class="btn btn-warning" id="1">Button1</button>
+   <button type="submit" class="btn btn-warning" id="2">Button2</button>
+</div>
+
+<script type="text/javascript">
+	jQuery("#my_styles .btn").click(function(){
+    jQuery("#my_styles .btn").removeClass('active');
+    jQuery(this).toggleClass('active'); 
+});
+</script>
+</body>
+</html>

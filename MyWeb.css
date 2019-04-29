@@ -1,0 +1,85 @@
+#wss{
+	background-color: #191970;
+	height: 48px;
+	margin-top: 44px;
+	display: grid;
+	grid-template-columns: auto auto auto; 
+}
+#wss div{
+	display: inline-block;
+}
+.navbar{
+	background-color: #fff;
+}
+.erer {
+	color: #00C78C;
+	font-weight: 800;
+	font-size: 25px;
+	font-family: verdana;
+	padding-top: 5px;
+	padding-left: 15px;
+}
+ #lll{
+	color: #000;
+	background-color: #fff;
+	border-radius: 20px;
+	font-weight: 600;
+	font-size: 15px;
+	color: #787878;
+border-right-width: 10px;
+border-left-width: 10px;
+
+}
+ #lll:hover{
+	color: #525252;
+	background-color: #00C78C;
+	border-radius: 20px;
+}
+.hover:hover .nanna{
+	display: inline-block;
+}
+#llj{
+	width: 100%;
+	color: #000;
+	background-color: #fff;
+	border-radius: 20px;
+	font-weight: 600;
+	font-size: 15px;
+	color: #787878;
+border-right-width: 10px;
+border-left-width: 10px;
+padding-right: 100px;
+}
+ #llj:hover{
+	color: #525252;
+	background-color: #00C78C;
+	border-radius: 20px;
+}
+
+
+ #mmm{
+	background-color: #00C78C;
+	border-radius: 23px;
+	font-weight: 600;
+	font-size: 25px;
+	color: #787878;
+	border-right-width: 18px;
+	border-left-width: 18px;
+	margin-top: 14px;
+	margin-left: 95px;
+
+}
+ #mmm:hover{
+	color: #fff;
+	background-color: #424242;
+}
+#mmm span {
+	color: #191970;
+}
+#mmm:hover span{
+	color:#fff;
+}
+#sasd{
+	margin-top: 545px;
+}
+

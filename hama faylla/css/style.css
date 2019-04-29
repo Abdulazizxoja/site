@@ -1,0 +1,110 @@
+.fon{
+	background-image: url("../photos/body_main.jpg");
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.topnav{
+/*	background-color: #333;*/
+/*	overflow: hidden;*/
+}
+.topnav a{
+	float: left;
+/*	color: #f2f2f2;*/
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 30px;
+}
+.container{
+	background-color: white;
+}
+.prof{
+	width: 48px;
+	height: 52px;
+	margin: 15px;
+	margin-left: 95px;
+	margin-top: 130px;
+	text-align: center;
+}
+.company{
+	text-align: center;
+	color: black;
+	font-size: 25px;
+}
+.vuu p{
+	font-size: 16px;
+	margin-top: 15px;
+	text-align: center;
+}
+.our_history h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.our_history p{
+	font-size: 16px;
+	margin-top: 15px;
+	text-align: center;
+}
+.our_miss h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.our_miss p{
+	font-size: 16px;
+	margin-top: 15px;
+	text-align: center;
+}
+.h1{
+	text-align: center;
+	color: black;
+	font-weight: 900;
+}
+.parallax {
+	background-image: url("../photos/parallax_img.jpg");
+	height: 160px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 70px;
+}
+.col-6{
+	text-transform: uppercase;
+	font-weight: 900;
+	color: red;
+	margin-top: 18px;
+}
+.col-6 strong{
+	color: black;
+}
+.img{
+	width: 65px;
+	height: 9px;
+	margin-left: 10px;
+}
+.middle{
+	margin-top: 18px;
+	width: 200px;
+	height: 200px;
+	margin-left: 65px;
+}
+.what{
+	font-weight: 700;
+	text-align: center;
+	font-size: 40px;
+}
+.lg{
+	display: block;
+	width: 40px;
+	height: 40px;
+	float: right;
+
+}
+.str{
+	display: block;
+	text-transform: uppercase;
+	float: right;
+
+}
